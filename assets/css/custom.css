@@ -1,0 +1,50 @@
+.countdown-row {
+  display:block;
+  padding: 30px;
+}
+
+/*.countdown-section {
+  float:left;
+  display:block;
+}
+
+.countdown-section>span {
+  display:block;
+}*/
+
+.countdown-section+.countdown-section {
+  margin-left:0px;
+}
+
+.countdown-section .countdown-amount {
+  font-size:30px;
+  line-height:0px;
+  font-weight:700;
+  margin-bottom:24px;
+}
+
+.countdown-section .countdown-period {
+  /*text-transform:uppercase;
+  font-weight:300;
+  font-size:20px;
+  line-height:15px;
+  letter-spacing:6px;*/
+}
+
+@media screen and (max-width: 1920px) and (min-width: 736px) {
+  #one-mobile-text {display: none;}
+  #two-mobile-text {display: none;}
+  #three-mobile-text {display: none;}
+  #four-mobile-text {display: none;}
+  #five-mobile-text {display: none;}
+  #six-mobile-text {display: none;}
+  .countdown-section .countdown-amount {
+    font-size:70px;
+  }
+
+}
+
+.main.style1 h2 {
+  text-align: center;
+  padding-right: 18px;
+}

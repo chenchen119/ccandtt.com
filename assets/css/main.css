@@ -3187,14 +3187,6 @@
 	}
 
 /* Wide */
-	@media screen and (max-width: 1920px) and (min-width: 736px) {
-		#one-mobile-text {display: none;}
-		#two-mobile-text {display: none;}
-		#three-mobile-text {display: none;}
-		#four-mobile-text {display: none;}
-		#five-mobile-text {display: none;}
-		#six-mobile-text {display: none;}
-	}
 	@media screen and (max-width: 1920px) {
 
 		/* Basic */

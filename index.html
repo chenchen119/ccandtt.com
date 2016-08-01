@@ -11,17 +11,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/jquery.countdown.css">
+		<link rel="stylesheet" href="assets/css/custom.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body>
-
 		<!-- Header -->
 			<header id="header">
 
 				<!-- Logo -->
 					<h1 id="logo">Chen & Jessie's Wedding Invitation</h1>
-
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
@@ -43,9 +43,12 @@
 						<h2>Jessie & Chen</h2>
 					</header>
 					<p>are getting <strong>married!</strong></p>
-					<footer>
-						<a href="#one" class="button style2 down">More</a>
-					</footer>
+
+						<div id="countdown">
+			</div>
+					<!-- <footer> -->
+						<!-- <a href="#one" class="button style2 down">More</a> -->
+					<!-- </footer> -->
 				</div>
 			</section>
 
@@ -134,50 +137,53 @@
 						<p>Chapel of the Flowers - Victorian Chapel<br>12:30PM Pacific Time<br>September 9, 2016<br>1717 Las Vegas Blvd. So.<br>Las Vegas, NV 89104 USA</p>
 					</header>
 					<div id="invite-form" class="box container 75%">
-
 					<!-- Contact Form -->
-							<!-- <form method="post" action="#">
-								<div class="row 50%">
-									<div class="6u 12u(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u 12u(mobile)"><input type="email" name="email" placeholder="Email" /></div>
-								</div>
-								<div class="row 50%">
-									<div class="12u"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
-								</div>
-								<div class="row">
-									<div class="12u">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" /></li>
-										</ul>
-									</div>
-								</div>
-							</form> -->
-							<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeZRFMaS-I8g7s8i4YGdnlokronH9G7-i-1alac0keXMbTeOQ/viewform?embedded=true" width="760" height="1050" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
-					<!-- </div> -->
-					<!-- <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://docs.google.com/forms/d/e/1FAIpQLSeZRFMaS-I8g7s8i4YGdnlokronH9G7-i-1alac0keXMbTeOQ/viewform?embedded=true' width='760' height='1050' frameborder='0' marginheight='0' marginwidth='0'>Loading...</iframe></div> -->
-					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeZRFMaS-I8g7s8i4YGdnlokronH9G7-i-1alac0keXMbTeOQ/viewform?embedded=true" width="760" height="1050" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-				</div>
+						<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeZRFMaS-I8g7s8i4YGdnlokronH9G7-i-1alac0keXMbTeOQ/viewform?embedded=true" width="760" height="1050" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+					</div>
 				</div>
 			</section>
 
+			<!-- Comments -->
+				<section id="comments" class="main style3 secondary">
+						<div id="disqus_thread"></div>
+						<script>
+						/**
+						 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+						 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+						/*
+						var disqus_config = function () {
+						    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+						    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+						};
+						*/
+						(function() { // DON'T EDIT BELOW THIS LINE
+						    var d = document, s = d.createElement('script');
+						    s.src = '//ccandtt.disqus.com/embed.js';
+						    s.setAttribute('data-timestamp', +new Date());
+						    (d.head || d.body).appendChild(s);
+						})();
+						</script>
+						<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				</section>
+
 		<!-- Footer -->
 			<footer id="footer">
-
+				<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/276276704&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>
 				<!-- Icons -->
 					<ul class="actions">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
 						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
 						<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li> -->
 					</ul>
 
 				<!-- Menu -->
-					<ul class="menu">
-						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
 
+					<ul class="menu">
+						<li>&copy; Chen Li</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
 			</footer>
 
 		<!-- Scripts -->
@@ -189,6 +195,17 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script>
+					$(function () {
+						var weddingsDay = new Date(2016, 9-1, 9, 12, 30);
+						//newYearsDay = new Date(today.getFullYear() + 1, 0, 1, 0, 0, 0, 0);
+						// $('#countdown').countdown({until: newYearsDay});
+						$('#countdown').countdown({until: weddingsDay, timezone: -7});
+						// $('#countdown').countdown({until: '+20m'});
+					});
+			</script>
+			<script type="text/javascript" src="assets/js/jquery.plugin.min.js"></script>
+			<script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
 
 	</body>
 </html>
