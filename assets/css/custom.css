@@ -48,3 +48,19 @@
   text-align: center;
   padding-right: 18px;
 }
+
+
+#invite-form {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 35px;
+	height: 1050px;
+	overflow: hidden;
+}
+iframe {
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
