@@ -61,11 +61,11 @@
 				$('.gallery').poptrox({
 					baseZIndex: 10001,
 					useBodyOverflow: false,
-					usePopupEasyClose: false,
+					usePopupEasyClose: true,
 					overlayColor: '#1f2328',
 					overlayOpacity: 0.65,
 					usePopupDefaultStyling: false,
-					usePopupCaption: true,
+					usePopupCaption: false,
 					popupLoaderText: '',
 					windowMargin: (skel.breakpoint('mobile').active ? 5 : 50),
 					usePopupNav: true
