@@ -3322,6 +3322,9 @@
 				font-size: 12pt;
 				line-height: 1.5em;
 			}
+			/*p {
+				font-size: 8.5pt;
+			}*/
 
 			input, textarea, select {
 				font-size: 12pt;

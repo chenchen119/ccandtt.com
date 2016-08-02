@@ -41,20 +41,48 @@
   .countdown-section .countdown-amount {
     font-size:70px;
   }
-
 }
+
+
+
+@media screen and (max-width: 320px) {
+  .chinese p {
+      font-size: 8.5pt;
+  }
+}
+
+@media screen and (max-width: 375px) and (min-width: 321px){
+  .chinese p {
+    font-size: 10.5pt;
+  }
+}
+@media screen and (max-width: 414px) and (min-width: 376px) {
+  .chinese p {
+    font-size: 11.5pt;
+  }
+}
+
 
 .main.style1 h2 {
   text-align: center;
   padding-right: 18px;
 }
 
+#work img {
+  height: 16em;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+#work {
+  padding-bottom: 10px;
+}
 
 #invite-form {
 	position: relative;
 	padding-bottom: 56.25%;
 	padding-top: 35px;
-	height: 1250px;
+	height: 1300px;
 	overflow: hidden;
 }
 #invite-form iframe {
@@ -69,7 +97,7 @@
 	position: relative;
 	padding-bottom: 56.25%;
 	padding-top: 35px;
-	height: 900px;
+	height: 1000px;
 	overflow: hidden;
 }
 #invite-form-cn iframe {
@@ -81,17 +109,9 @@
 }
 
 #comments {
-  height: 50%;
-  overflow: auto;
+  height: auto;
   margin: auto;
   width: 90%;
-  margin-top: 30px;
-}
-
-#comment-div {
-  /*height: 5em;*/
-  margin: auto;
-  overflow: auto;
 }
 
 #contact {
