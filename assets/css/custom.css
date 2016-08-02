@@ -78,6 +78,16 @@
   padding-bottom: 10px;
 }
 
+#story img {
+  height: 16em;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+#story {
+  padding-bottom: 10px;
+}
+
 #invite-form {
 	position: relative;
 	padding-bottom: 56.25%;
