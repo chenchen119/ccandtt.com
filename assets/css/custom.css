@@ -47,6 +47,9 @@
   font-size: 50pt;
 }
 
+#heart {
+  color: #ec1b1b;
+}
 
 @media screen and (max-width: 320px) {
   .chinese p {
@@ -83,11 +86,17 @@
   .main.style1 p {
     font-size: 20pt;
   }
+  #one-mobile-text {display: none;}
+  #two-mobile-text {display: none;}
+  #three-mobile-text {display: none;}
+  #four-mobile-text {display: none;}
+  #five-mobile-text {display: none;}
+  #six-mobile-text {display: none;}
 }
 
 .main.style1 {
-  /*color: pink;*/
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #ff80bf;
+  /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
 .main.style1 h2 {
