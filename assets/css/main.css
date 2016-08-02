@@ -3347,12 +3347,6 @@
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
-			#one-text {display: none;}
-			#two-text {display: none;}
-			#three-text {display: none;}
-			#four-text {display: none;}
-			#five-text {display: none;}
-			#six-text {display: none;}
 
 			body {
 				min-width: 320px;
